@@ -120,6 +120,7 @@ a:hover {
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -750,11 +751,11 @@ footer{
   position: absolute;
   width: 40%;
   left: 50%;
-  top: 30%;
+  top: 25%;
   transform: translate(-50%,-50%);
 }
 .caption{
-  padding: 60px 100px;
+  padding: 60px 60px;
   border-radius: 0px 0px 0px 30px;
   background-color: rgba(19, 20, 20, 0.374);
 }
