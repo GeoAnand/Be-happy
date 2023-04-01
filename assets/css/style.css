@@ -679,6 +679,9 @@ footer{
 .footer-logo h5{
   padding: 10px;
 }
+.footer-content{
+  float: right;
+}
 .footer-content h4{
   padding: 10px 0;
 }
