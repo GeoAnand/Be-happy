@@ -822,6 +822,16 @@ footer{
   .support-col{
     padding: 10px;
   }
+  .main-banner .caption{
+    width: 80%;
+  }
+  .footer-logo{
+    text-align: center;
+  }
+  .footer-content{
+    float: none;
+    text-align: center;
+  }
 }
 
 
