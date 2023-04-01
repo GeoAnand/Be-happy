@@ -803,5 +803,13 @@ footer{
   }
 
 }
+@media screen and (max-width:600px){
+  .caption{
+    padding: 0;
+  }
+  .support-col{
+    padding: 10px;
+  }
+}
 
 
