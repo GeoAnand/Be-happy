@@ -682,6 +682,11 @@ footer{
 }
 .footer-content{
   float: right;
+  display: flex;
+  flex-direction: column;
+}
+.footer-content a{
+  color: #000;
 }
 .footer-content h4{
   padding: 10px 0;
