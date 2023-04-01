@@ -745,15 +745,15 @@ footer{
 .main-banner .caption {
   text-align: center;
   position: absolute;
-  width: 80%;
+  width: 40%;
   left: 50%;
-  top: 50%;
+  top: 30%;
   transform: translate(-50%,-50%);
 }
 .caption{
-  padding: 60px 200px;
+  padding: 60px 100px;
   border-radius: 0px 0px 0px 30px;
-  background-color: rgba(19, 20, 20, 0.718);
+  background-color: rgba(19, 20, 20, 0.374);
 }
 
 .main-banner .caption h6 {
