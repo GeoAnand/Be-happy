@@ -741,6 +741,9 @@ footer{
     bottom: 7px;
     width: 100%;
 }
+#second-para{
+  display: none;
+}
 
 .main-banner .caption {
   text-align: center;

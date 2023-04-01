@@ -140,3 +140,19 @@ $(function() {
 	// window.onload = function() {
 	// 	document.getElementById("my_audio").play();
 	// }
+
+  // hide content
+  function togglePara() {
+    const secondPara = document.getElementById("second-para");
+  
+    if (secondPara.style.display === "block") {
+      secondPara.style.display = "none";
+    } else {
+      secondPara.style.display = "block";
+    }
+  }
+  
+  
+  
+  
+  
