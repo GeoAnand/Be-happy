@@ -732,7 +732,7 @@ footer{
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(22,34,57,0.85);
+    /* background-color: rgba(22,34,57,0.85); */
     top: 0;
     left: 0;
     bottom: 7px;
@@ -746,6 +746,11 @@ footer{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+}
+.caption{
+  padding: 60px 200px;
+  border-radius: 0px 0px 0px 30px;
+  background-color: rgba(19, 20, 20, 0.718);
 }
 
 .main-banner .caption h6 {
