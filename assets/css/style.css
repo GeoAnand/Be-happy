@@ -793,6 +793,14 @@ footer{
   font-weight: 900;
 }
 
+.site-navigation a{
+  font-size: 33px;
+  font-family: 'Ledger', serif;
+  font-weight: 600;
+  color: #000;
+
+}
+
 @media screen and (max-width: 1180px) {
 
   .main-banner .caption h6 {
@@ -824,6 +832,7 @@ footer{
   }
   .main-banner .caption{
     width: 80%;
+    top: 35%;
   }
   .footer-logo{
     text-align: center;
@@ -831,6 +840,23 @@ footer{
   .footer-content{
     float: none;
     text-align: center;
+  }
+  .site-logo-col{
+    width: 50%;
+  }
+  .nav-text-col{
+    width: 50%;
+  }
+  .site-navigation a{
+    font-size: 22px;
+    padding: 0;
+  }
+  .site-logo{
+    width: 100%;
+    text-align: center;
+  }
+  .site-navbar{
+    padding: 50px 0;
   }
 }
 

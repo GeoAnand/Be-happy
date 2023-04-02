@@ -137,20 +137,34 @@ $(function() {
 
 	// audio
 
-	// window.onload = function() {
-	// 	document.getElementById("my_audio").play();
-	// }
+	window.onload = function() {
+		document.getElementById("my_audio").play();
+	}
 
   // hide content
+  // function togglePara() {
+  //   const secondPara = document.getElementById("second-para");
+  
+  //   if (secondPara.style.display === "block") {
+  //     secondPara.style.display = "none";
+  //   } else {
+  //     secondPara.style.display = "block";
+  //   }
+  // }
+
   function togglePara() {
     const secondPara = document.getElementById("second-para");
+    const readMoreBtn = document.querySelector(".dir-btn");
   
     if (secondPara.style.display === "block") {
       secondPara.style.display = "none";
+      readMoreBtn.textContent = "Read More";
     } else {
       secondPara.style.display = "block";
+      readMoreBtn.textContent = "Read Less";
     }
   }
+  
   
   
   
